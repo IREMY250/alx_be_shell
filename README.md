@@ -1,10 +1,21 @@
-Shell Permissions
-Learning Objectives
-Tasks
-0. My name is Betty
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
-Create a script that switches the current user to the user betty.
 
-You should use exactly 8 characters for your command (+1 character for the new line)
-You can assume that the user betty will exist when we will run your script.
+#!/bin/bash
+
+## 0-iam_betty
+This script switches the current user to the user `betty`.
+
+## 1-who_am_i
+This script prints the username of the current user.
+
+## 4-empty
+This script prints an empty file called hello.
+
+## 5-execute
+This script adds execute permission to the owner of the file 'hello'
+
+## 6-multiple permissions
+This script grants execute access to owner and group whiles giving read only access to others for hello file
+
+## 9-John_Doe
+This script was created using shell permission modes for file hello 
+
