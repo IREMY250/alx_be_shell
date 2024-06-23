@@ -2,9 +2,13 @@ Shell Permissions
 
 Tasks
 
-0. My name is Betty
+#!/bin/bash
 
-Create a script that switches the current user to the user betty.
+## 0-iam_betty
+This script switches the current user to the user `betty`.
 
-You should use exactly 8 characters for your command (+1 character for the new line)
-You can assume that the user betty will exist when we will run your scriptTasks
+## 1-who_am_i
+This script prints the username of the current user.
+
+## 4-empty
+This script prints an empty file called hello.
